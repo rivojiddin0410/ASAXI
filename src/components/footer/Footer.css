@@ -1,0 +1,753 @@
+.carusel__logo{
+    width: 95%;
+    height: 140px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.carusel__logo::-webkit-scrollbar{
+    height: 0;
+}
+.carusel__logo__part1{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+.carusel__logo__part2{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.advertising{
+    width: 100%;
+    height: 300px;
+    background-color: var(--bg-py);
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+}
+.advertising__box__pags__link{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.advertising__box__pags__photo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.advertising__box__pags__text{
+    margin-top: 30px;
+    color: white;
+}
+.advertising__box__pags__link__collection{
+    width: 540px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.advertising__box__pags__photo img{
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 800px;
+    background: white;
+    margin-top: 60px;
+}
+.footer__desc{
+    width: 95%;
+    height: 200px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    margin: auto;
+}
+.footer__desc__comfortable{
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+.footer__desc__to_give{
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+.footer__desc__you__comfortable{
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+.footer__desc__payment{
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+.footer__desc__comfortable__photo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__desc__to_give__photo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__desc__you__comfortable__photo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__desc__payment{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__desc__you__comfortable__text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__desc__to_give__text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__desc__comfortable__text__name{
+    color: gray;
+    margin-top: 5px;
+}
+.footer__desc__comfortable__text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__desc__payment__text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer__text__box__one{
+    width: 33%;
+    height: 100%;
+}
+.footer__text__box__two{
+    width: 67%;
+    height: 100%;
+    display: flex;
+}
+.footer__text__box__two__box__text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__text__box__one p{
+    margin-top: 10px;
+    color: rgb(100,116,139);
+}
+.footer__text__box__one p:hover{
+    color: var(--bg-py);
+}
+.footer__text__box__two__box__text__one{
+    width: 50%;
+    height: 50%;
+}
+.footer__text__box__two__box__text__two{
+    width: 50%;
+    height: 50%;
+}
+.footer__text__box__two__box__text__three{
+    width: 50%;
+    height: 50%;
+}
+.footer__text__box__two__box__text__four{
+    width: 50%;
+    height: 50%;
+}
+.footer__text__box__two__box__text__one p{
+    color: rgb(100,116,139);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer__text__box__two__box__text__one p:hover{
+    color: var(--bg-py);
+    cursor: pointer;
+}
+.footer__text__box__two__box__text__one p svg{
+    color: rgb(100,116,139);
+    font-size: 20px;
+    margin-right: 5px;
+}
+.footer__text__box__two__box__text__three p{
+    color: rgb(100,116,139);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer__text__box__two__box__text__three p:hover{
+    color: var(--bg-py);
+    cursor: pointer;
+}
+.footer__text__box__two__box__text__three p svg{
+    color: rgb(100,116,139);
+    font-size: 20px;
+    margin-right: 5px;
+}
+.footer__text__box__two__box__text__two p{
+    color: rgb(100,116,139);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer__text__box__two__box__text__two p:hover{
+    color: var(--bg-py);
+    cursor: pointer;
+}
+.footer__text__box__two__box__text__two p svg{
+    color: rgb(100,116,139);
+    font-size: 20px;
+    margin-right: 5px;
+}
+.footer__text__box__two__box__text__four__icons_box p svg{
+    color: rgb(100,116,139);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer__text__box__two__box__text__four__icons_box p svg:hover{
+    color: var(--bg-py);
+    cursor: pointer;
+}
+.footer__text__box__two__box__text__four__icons_box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__text__box__two__box__pey{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__text__box__two__box__pey__box{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(255,255,255);
+}
+.footer__text__box__two__box__pey__uzum{
+    width: 140px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(242,242,247);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__text__box__two__box__pey__uzum img{
+    width: 50px;
+    height: 50px;
+}
+.footer__desc__informetion__text{
+    color: rgb(100,116,139);
+    text-align: center;
+    margin-top: 20px;
+}
+.advertising__wrapper{
+    width: 100%;
+    height: 240px;
+    background: var(--bg-py);
+}
+.advertising__wrapper2{
+    margin-top: 100px;
+    width: 100%;
+    height: 240px;
+    background: var(--bg-py);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1300px ){
+    .footer__text{
+        display: block;
+    }
+    .footer__text__box__two__box__pey{
+        flex-wrap: wrap;
+        display: none;  
+    }
+    .footer__text__box__two__box__pey__box{
+        margin-left: 0;
+    }
+    .footer__desc__informetion__text{
+        display: none;
+    }
+    .footer__text__box__two__box__text{
+        margin-top: 0;
+    }
+    .footer__text__box__one{
+        margin-top: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1200px ){
+    .advertising__box__pags__photo img{
+        width: 400px;
+    }
+    .advertising__box__pags__photo{
+        width: 200px;
+        margin-left: 300px;
+    }
+    .advertising__box__pags__link{
+        margin-left: 20px;
+    }
+    footer{
+        height: 900px;
+    }
+    .footer__desc{
+        flex-wrap: wrap;
+    }
+    .footer__desc__comfortable,
+    .footer__desc__to_give,
+    .footer__desc__you__comfortable,
+    .footer__desc__payment{
+        background-color: white;
+    }
+    .footer__desc__payment{
+        width: 400px;
+    }
+}
+@media screen and (max-width:1000px ){
+    .advertising__box__pags__photo{
+        display: none;
+    }
+    .advertising__box__pags__link{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .footer__desc__payment{
+     width: 400px;
+    }
+}
+@media screen and (max-width:800px ){
+    .footer__desc{
+        margin: auto;
+        width: 400px;
+    }
+    .footer__text__box__one{
+        margin-top: 550px;
+        width: 70%;
+    }
+    .advertising__wrapper{
+        background-color: white;
+    }
+    .footer__text__box__two__box__text{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .footer__text__box__two{
+        width: 100%;
+    }
+    .footer__text__box__two__box__pey{
+        display: block;
+    }
+    .footer__text{
+        display: block;
+    }
+    .footer__desc__informetion__text{
+        display: block;
+        margin-top: 700px;
+    }
+    .hrrrrr{
+        display: block;
+    }
+}
+@media screen and (max-width:650px ){
+    .advertising__box__pags__link{
+        width: 100%;
+    }
+    .advertising__box__pags__link__collection{
+        width: auto;
+    }
+    .advertising__box__pags__link__collection img{
+        width: 100px;
+        margin-left: 10px; 
+    }
+    .advertising__box__pags__link__collection img{
+        width: 100px;
+        margin-left: 10px; 
+    }
+    .footer__desc{
+        width: 100%;
+    }
+    .footer__desc__comfortable,
+    .footer__desc__to_give,
+    .footer__desc__you__comfortable,
+    .footer__desc__payment{
+        width: 100%;
+       }
+
+}
+@media screen and (max-width:500px ){
+    .footer__text__box__one{
+        width: 100%;
+    }
+    .footer__text__box__two__box__text{
+        display: block;
+    }
+    .footer__text__box__two__box__text__one{
+        width: 100%;
+    }
+    .footer__text__box__two__box__text__two{
+        width: 100%;
+    }
+    .footer__text__box__two__box__text__four,
+    .footer__text__box__two__box__text__three{
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px ){
+    .advertising__box__pags__link__collection{
+        width: auto;
+       display: block;
+       margin-left: 100px;
+    }
+}
+
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #7000FF;
+}
+.wimdow1{
+    margin-left: 70px;
+    width: 90%;
+    display: flex;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.win__child h2{
+    font-size: 15px;
+}
+.win__child h3{
+    font-size: 13px;
+    color: gray;
+    font-weight: 100;
+    width: 70%;
+}
+.win__child{
+    margin-left: 30px;
+}
+.wimdow4 h2{
+    color: #fff;
+}
+.wimdow2,
+.wimdow3,
+.wimdow4 h3{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.wimdow2,
+.wimdow3,
+.wimdow4{
+     margin-left: 100px;
+     margin-top: 20px;
+}
+.wimdow2 h3{
+    margin-top: 13px;
+}
+.window__all{
+    display: flex;
+}
+
+.wimdow3 i{
+    font-size: 25px;
+    color: #fff;
+}
+.wimdow3 i span{
+    margin-left: 30px;
+}
+.hr{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.pay{
+    display: flex;
+}
+.pay h2{
+    color: #fff;
+    margin-left: 32%;
+    margin-top: 20px;
+}
+.pay img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer h4{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 12%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .footer{
+        width: 100%;
+        height: 800px;
+        margin-top: 100px;
+        padding-top: 50px;
+        background-color: #7000FF;
+    }
+    .wimdow1{
+        margin-left: 50px;
+        width: 90%;
+        display: flex;
+        height: 120px;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+    .win__child h2{
+        font-size: 10px;
+    }
+    .win__child h3{
+        font-size: 9px;
+        color: gray;
+        font-weight: 100;
+        width: 70%;
+    }
+    .win__child{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .wimdow4 h2{
+        color: #fff;
+    }
+    .wimdow2,
+    .wimdow3,
+    .wimdow4 h3{
+        color: #fff;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .wimdow2,
+    .wimdow3,
+    .wimdow4{
+         margin-left: 15px;
+         margin-top: 20px;
+    }
+    .wimdow2 h3{
+        margin-top: 13px;
+    }
+    .window__all{
+        display: flex;
+    }
+    
+    .wimdow3 i{
+        font-size: 20px;
+        color: #fff;
+    }
+    .wimdow3 i span{
+        margin-left: 20px;
+    }
+    .hr{
+        color: #fff;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pay{
+        display: flex;
+    }
+    .pay h2{
+        color: #fff;
+        margin-left: 22%;
+        margin-top: 20px;
+    }
+    .pay img{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer h4{
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .footer{
+        height: 1350px;
+    }
+    .footer h4{
+
+        text-align: center;
+    }
+    .window__all{
+        display: block;
+    }
+    .wimdow1{
+        margin: auto;
+        width: 90%;
+        display: block;
+        height: 30%;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+    .wimdow4{
+        margin-left: 20px;
+    }
+    .wimdow3,
+   .wimdow2 h3{
+    margin-top: 30px;
+   }
+   .wimdow3,
+   .wimdow2{
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   .wimdow h3{
+    width: 0;
+   }
+   .pay h2{
+    display: none;
+   }
+   .win__child{
+    text-align: center;
+   }
+   .win__child{
+    text-align: center;
+   }
+   .win__child h3{
+    margin-left: 100px;
+    margin-top: 15px;
+   }
+}
+@media screen and (max-width:450px){
+    .footer{
+        height: 1350px;
+    }
+    .footer h4{
+        margin-left: 5px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .window__all{
+        display: block;
+    }
+    .wimdow1{
+        width: 90%;
+        display: block;
+        height: 30%;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+    .wimdow1 h3{
+        margin-left: 60px;
+    }
+    .win__child{
+        margin-left: 0;
+    }
+    .wimdow4{
+        margin-left: 20px;
+    }
+    .wimdow3,
+   .wimdow2 h3{
+    margin-top: 30px;
+   }
+   .wimdow3,
+   .wimdow2{
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   .wimdow h3{
+    width: 0;
+   }
+   .pay h2{
+    display: none;
+   }
+   .pay img{
+    margin-left: 10px;
+   }
+
+}
+

@@ -1,0 +1,103 @@
+.log_in_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login_box {
+    width: 400px;
+    height: 370px;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 50px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.login_text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.login_title {
+    font-size: 16px;
+}
+
+.login_box input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    margin-top: 20px;
+    background-color: #ebebeb;
+}
+
+.login_box input::-webkit-outer-spin-button,
+.login_box input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.login_box input:focus {
+    outline: none;
+}
+
+.login_box button {
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: var(--bg-py);
+    border-radius: 7px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.login_box button:hover{
+    background: #fff;
+    color: var(--bg-py);
+    border: 1px solid var(--bg-py);
+}
+.login_info {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:400px) {
+    .login_box {
+        width: 250px;
+        height: 240px;
+    }
+
+    .login_text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .login_title {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .login_box input {
+        width: 200px;
+    }
+
+    .login_box button {
+        width: 200px;
+        margin-bottom: 5px;
+    }
+
+    .login_password_title {
+        font-size: 10px;
+    }
+
+    .login_info {
+        margin-top: 5px;
+        font-size: 7px;
+    }
+}
